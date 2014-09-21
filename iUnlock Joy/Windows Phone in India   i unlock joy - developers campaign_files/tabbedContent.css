@@ -1,0 +1,49 @@
+#slider4 { overflow:hidden; display: block; padding: 0 0 0px 0; margin: 0 0 0 0px;}
+#slider4 .viewport { width: 580px; height: 250px; overflow: hidden; position: relative; }
+#slider4 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0px; }
+#slider4 .pager li { float: left; padding:0 23px 0 0;	margin:0;	float:left;	width:auto; }
+#slider4 .pagenum { padding:0;	margin:0;	float:left;	background-position:left top;	height:16px; font-size:0; text-decoration:none; }
+#slider4 .active { background-position:left bottom !important;}
+
+
+#slider4 .overview { list-style: none; position: absolute; width: 580px; left: 0 top: 0; }
+#slider4 .overview .page{ float: left; padding: 0px; height: 250px;  width: 580px;}
+
+
+
+
+ #slider5 { overflow:hidden; display: block; padding: 0 0 0px 0; margin: 0 0 0 0px;}
+ #slider5 .viewport { width: 580px; height: 250px; overflow: hidden; position: relative; }
+ #slider5 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0px; }
+ #slider5 .pager li { float: left; padding:0 23px 0 0;	margin:0;	float:left;	width:auto; }
+ #slider5 .pagenum { padding:0;	margin:0;	float:left;	background-position:left top;	height:16px; font-size:0; text-decoration:none; }
+ #slider5 .active { background-position:left bottom !important;}
+
+
+ #slider5 .overview { list-style: none; position: absolute; width: 580px; left: 0 top: 0; }
+ #slider5 .overview .page{ float: left; padding: 0px; height: 250px;  width: 580px;}
+
+
+.h1 {
+	background:url(../images/s-t1.jpg) no-repeat left top;
+	width:94px;
+}
+.h1:hover {
+	background-position:left bottom;
+}
+ 
+.h2 {
+	background:url(../images/s-t2.jpg) no-repeat left top;
+	width:118px;
+}
+.h2:hover {
+	background-position:left bottom;
+}
+.h3 {
+	background:url(../images/s-t3.jpg) no-repeat left top;
+	width:73px;
+}
+.h3:hover {
+	background-position:left bottom;
+}
+ 

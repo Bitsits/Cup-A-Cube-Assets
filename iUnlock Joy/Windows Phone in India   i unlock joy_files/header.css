@@ -1,0 +1,17 @@
+#content2 {
+ 
+	padding:0px 0px 0px;
+	margin:0px;
+	overflow:hidden;
+	position:relative;
+}
+#contentScroller {
+	width:10000px;
+}
+.page {
+	float:left;
+	width:915px;
+	margin:0px 580px 0px 0px;
+	display:inline;
+}
+ 

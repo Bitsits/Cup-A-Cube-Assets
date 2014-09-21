@@ -1,0 +1,86 @@
+/*
+	List Expander 
+*/
+
+.listexpander{width:852px;}
+.listexpander, .listexpander ul, .listexpander li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.listexpander ul{
+	/*
+	Uncomment this if you want to initially hide the child lists. 
+	If you do, Javascript disabled and CSS enabled browsers will not be able to use this list.
+	display:none;
+	*/ 
+	
+}
+.listexpander li{
+	line-height:200%;
+	margin-top:1px;
+	cursor:default;
+	padding-left:30px;
+	font-weight:bold;
+	width:792px;
+	font:normal 14px/23px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+.listexpander li.collapsed, .listexpander li.expanded{cursor:pointer;} 
+
+/* first level */
+
+.listexpander li, .listexpander li.collapsed{background: url(../images/collapsed.gif) no-repeat 5px .4em; } 
+.listexpander li.expanded{background: url(../images/expanded.gif) no-repeat 5px .4em;}
+ 
+.bg-none {
+	padding-left:0px !important;
+	background:none !important;
+	font:normal 12px/14px Arial, Helvetica, sans-serif !important;
+	color:#666;
+	padding-bottom:10px !important;
+	line-height:16px;
+}
+
+/* buttons */
+
+p.listexpander{
+	height:1.5em;
+	margin:1em 0;
+}
+p.listexpander a{
+	float:right;
+	padding:4px 10px;
+	margin-right:5px;
+	cursor:pointer;
+	font:normal 12px/14px Arial, Helvetica, sans-serif !important;
+	color:#666;
+	/*background:url(../images/collapsed.gif) no-repeat left top;*/
+}
+p.listexpander a:hover{
+	text-decoration:underline;
+	 
+}
+ 
+
+/* float fix */
+.listexpander li:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.listexpander li{
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .listexpander li{
+	height: 1%;
+}
+.listexpander li{
+	display: block;
+}
+/* End hide from IE-mac */
+/* end float fix */

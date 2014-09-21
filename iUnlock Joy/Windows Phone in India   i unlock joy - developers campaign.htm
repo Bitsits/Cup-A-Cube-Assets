@@ -1,0 +1,932 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0054)http://www.microsoft.com/india/developer/windowsphone/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>i unlock joy - developers campaign</title>
+<meta name="Title" content="i unlock joy - developers campaign">
+    <meta name="Description" content="Windows Phone’s ‘I Unlock Joy’ program is a chance to become users’ favorite and get a brand new Windows Phone.">
+    <meta name="Keywords" content="Windows Phone, I Unlock Joy, Microsoft Office, Microsoft India, Microsoft.">
+<link href="./Windows Phone in India   i unlock joy - developers campaign_files/styles.css" rel="stylesheet" type="text/css">
+ <link href="./Windows Phone in India   i unlock joy - developers campaign_files/header.css" rel="stylesheet" type="text/css">
+<link href="./Windows Phone in India   i unlock joy - developers campaign_files/listexpander.css" rel="stylesheet" type="text/css" media="screen">
+ <script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.min.js"></script>
+
+
+ <script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/listexpander.js"></script>	
+  
+	<script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.fancybox-1.3.4.css" media="screen">
+    
+
+  <!--header slider-->
+ 	<script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.backgroundPosition.js"></script>
+	<script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/scripts.js"></script>
+  <!--/header slider-->
+ <script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/popup-inti.js"></script>	
+   
+ 
+<!-- Anything Slider -->
+	<link rel="stylesheet" href="http://www.microsoft.com/india/developer/windowsphone/css/anythingslider.css">
+	<script src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.anythingslider.js"></script>
+    <script src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.easing.1.2.js"></script>
+ 
+
+
+  <link href="./Windows Phone in India   i unlock joy - developers campaign_files/tabbedContent.css" rel="stylesheet" type="text/css">
+   
+ 
+
+	 
+<script type="text/javascript">
+
+    $(function () {
+        $('#slider').anythingSlider();
+
+    });
+
+    $(function () {
+        $('#slider2').anythingSlider({
+        //theme : 'metallic',
+
+    });
+
+
+});
+
+
+function closeFancyBox() {
+    $.fancybox.close();
+
+}
+function showWhite() {
+    document.getElementById("bg-p").style.display = "block";
+    document.getElementById("removebg").className = "i-joy";
+    return false;
+}
+
+function showWhiteHide() {
+    document.getElementById("bg-p").style.display = "none";
+    return false;
+}
+function removebg() {
+    $('#removebg').removeClass("i-joy");
+    $('#removebg').addClass("i-joy-2");
+
+}
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".display").click(function () {
+            $('#nav-show').fadeIn();
+            $('#nav-show .t2').addClass("selected");
+            $('.t1, .t3, .t4, .t5').removeClass("selected");
+            //$('.display2, .display3, .display4').removeClass("selected");
+        });
+
+        $(".display2").click(function () {
+            $('#nav-show').fadeIn();
+            $('#nav-show .t3').addClass("selected");
+            $('.t1, .t2, .t4, .t5').removeClass("selected");
+        });
+
+        $(".display3").click(function () {
+            $('#nav-show').fadeIn();
+            $('#nav-show .t4').addClass("selected");
+            $('.t1, .t2, .t3, .t5').removeClass("selected");
+        });
+
+        $(".display4").click(function () {
+            $('#nav-show').fadeIn();
+            $('#nav-show .t5').addClass("selected");
+            $('.t1, .t2, .t4, .t3').removeClass("selected");
+        });
+
+
+
+        $(".t1").click(function () {
+            $('#nav-show').fadeOut();
+            $('.t1').addClass("selected");
+        });
+
+        $(".t2").click(function () {
+            $('.t1, .t3, .t4, .t5,').removeClass("selected");
+            $('.t2').addClass("selected");
+        });
+
+        $(".t3").click(function () {
+            $('.t1, .t2, .t4, .t5,').removeClass("selected");
+            $('.t3').addClass("selected");
+        });
+
+        $(".t4").click(function () {
+            $('.t1, .t2, .t3, .t5,').removeClass("selected");
+            $('.t4').addClass("selected");
+        });
+        $(".t5").click(function () {
+            $('.t1, .t2, .t3, .t4,').removeClass("selected");
+            $('.t5').addClass("selected");
+        });
+
+
+    });
+	 
+</script>
+
+ <script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/jquery.tinycarousel.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#slider4').tinycarousel({ controls: false, pager: true, animation: true, speed: 100 });
+        $('#slider5').tinycarousel({ controls: false, pager: true, animation: true, speed: 100 });
+    });
+	</script>
+    <!--atlas -->
+
+    <script type="text/javascript">        function atlas(uri) {
+            var timestamp = new Date();
+
+            var qs = "?qstr=random=" + Math.ceil(Math.random() * 99999999) + timestamp.getUTCFullYear() + timestamp.getUTCMonth()
+    + timestamp.getUTCDate() + timestamp.getUTCHours() + timestamp.getUTCMinutes() + timestamp.getUTCSeconds() + timestamp.getUTCMilliseconds();
+
+            var uriPlus = uri + qs;
+
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = uriPlus;
+
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+</script>
+    <!--atlas -->
+ 
+
+ 
+<!-- Older IE stylesheet, to reposition navigation arrows, added AFTER the theme stylesheet -->
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="css/anythingslider-ie.css" type="text/css" media="screen" />
+<![endif]-->
+
+    
+</head>
+<body lang="en" onload="listexpander(); ">
+		
+
+ 
+
+
+<!--Main container for center website-->
+<div class="container">
+  <div class="master">
+    <!--Start master container here-->
+    <!--header top-->
+    <div class="header-top">
+      <div class="header-top-t"> 
+        <div class="logo">
+          <h1><a href="http://www.microsoft.com/india/developer/windowsphone/#home" class="goto_home t1" style="background-image:none !important" onclick="showWhiteHide();"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/windows-phone.png" width="183" height="38" alt="Windows Phone" title="Windows Phone"></a></h1>
+        </div>
+        <div class="ms-logo">
+          <div class="ms-logo-c"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/ms.png" width="96" height="17" alt="Microsoft" title="Microsoft"></div>
+         
+        </div>
+      </div>
+      <!--top menu-->
+      <div class="header-top-t2">
+        <div class="header-top-menu">
+          <ul>
+            <li><!--<a href="#inline4" class="tab1 various4">&nbsp;</a>--><a href="javascript:void(0)" class="tab1" onclick="javascript:window.open(&#39;register.html&#39;,&#39;mywin&#39;,&#39;width=900,height=580&#39;,&#39;_blank&#39;); atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperRegister_2&#39;);"></a></li>
+            <li><a href="http://create.msdn.com/home/about/app_submission_walkthrough" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSubmitApp_10&#39;)" class="tab2">&nbsp;</a></li>
+            <li><!--<a  href="#inline6" class="tab3  various6">&nbsp;</a>--><a href="javascript:void(0)" class="tab3" onclick="javascript:window.open(&#39;lateClaim.html&#39;,&#39;mywin&#39;,&#39;width=350,height=300, scrollbars=yes&#39;,&#39;_blank&#39;);"></a></li>
+            <li><a href="http://www.microsoft.com/download/en/details.aspx?id=8729" target="_blank" class="tab4"></a></li>
+          </ul>
+        </div>
+        
+         <!--Agents of joy-->
+        <div style="display:none;">
+         <div id="inline5">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="popup-m-t">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/aj-head.png" width="328" height="59" alt=""></h2>
+                     
+                     
+                  <p> We would like to thank these champions for being the Agents of joy for the ‘I unlock joy’ campaign in Pune. 
+They worked proactively to create buzz around the campaign in the Pune region. They also helped developers understand the new platform through events, training etc. These people managed their jobs and personal commitments beautifully to work towards making the ‘I unlock joy’ dream a reality. </p>
+
+<p>Take a bow, Agents of joy!</p>
+
+<p></p><center><img src="./Windows Phone in India   i unlock joy - developers campaign_files/people-with-ph2.png" alt=""></center><p></p>
+
+                     
+                    
+                    </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          </div>
+         </div>
+        <!--/Agents of joy-->
+
+        
+         <!--CRED Form register 1-->
+        <div style="display:none;">
+         <div id="inline4">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="popup-m-t">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/register-txt.png" width="195" height="56" alt=""></h2>
+                     
+                     
+                     Form code goes here.
+                     
+                    
+                    </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          </div>
+         </div>
+        <!--/CRED Form register 1-->
+        
+        
+     
+        
+        
+          <!--CRED Form Claim goodies-->
+        <div style="display:none;">
+         <div id="inline6">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="popup-m-t">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/cg-txt.png" width="359" height="46" alt=""></h2>
+                     
+                     
+                     Form code goes here.
+                     
+                    
+                    </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          </div>
+         </div>
+        <!--/CRED Form  Claim goodies-->
+        
+        
+        
+        
+        
+        <!--register popup-->
+        <div style="display:none;">
+         <div id="inline1">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="popup-m-t">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/byb.png" width="421" height="67" alt=""></h2>
+                    <ul>
+                        <li><strong><a href="http://create.msdn.com/en-US/" target="_blank">Windows Phone App Hub</a></strong></li>
+                        <li><strong><a href="http://create.msdn.com/en-us/education/quickstarts/" target="_blank">Development Quick Start</a></strong></li>
+                        <li style="width:150px;"><strong><a href="http://channel9.msdn.com/Series/Windows-Phone-7-Development-for-Absolute-Beginners" target="_blank">Development for Absolute Beginners</a></strong></li>
+                        <li style="width:100px;"><strong><a href="http://msdn.microsoft.com/en-in/wp7trainingcourse.aspx" target="_blank">Training Kit</a></strong></li>
+                        <li><strong><a href="http://msdn.microsoft.com/en-us/wp7trainingcourse.aspx" target="_blank">Development Labs</a></strong></li>
+                        <li><strong><a href="http://advertising.microsoft.com/wwdocs/user/en-us/forpublishers/Ad-in-Apps-Monetization%20Best%20Practices_3-1-2011.pdf" target="_blank">Apps Monetization Best Practices</a></strong></li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          </div>
+         </div>
+        <!--/register popup-->
+        
+        
+              <!--App Submission popup-->
+        <div style="display:none;">
+         <div id="inline2">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="popup-m-t-as">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/as.png" width="398" height="59" alt="App Submission"></h2>
+                    <ul>
+           <li><strong><a href="http://create.msdn.com/en-US/home/about/developer_registration_walkthrough" target="_blank">App Registration Walkthrough</a></strong></li>
+           <li><strong><a href="http://msdn.microsoft.com/en-us/library/hh184843(v=VS.92).aspx" target="_blank">App Certification Requirements</a></strong></li>
+                    
+                    </ul>
+                    
+                  </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          </div>
+         </div>
+        <!--/App Submission popup-->
+        
+        
+        
+        
+       
+        
+       <!--Claim Goodies popup-->
+       <div style="display: none;">
+         <div id="inline3">          	
+            <div class="popup">
+            	<div class="popup-t"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-t.png" width="892" height="7" alt=""></div>
+                <div class="popup-m">
+                	<div class="popup-m-close">&nbsp;</div>
+                    <div class="faq">
+                    <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/faq.png" alt=""></h2>
+                    
+                    <div id="content">
+                    	
+		<ul class="listexpander" style="overflow:auto; height:420px; padding-bottom:10px;">
+			<li>What is this program about?
+				<ul>
+					<li class="bg-none expanded"> This program is about unlocking the potential of developers in India, like you. Register, build and submit one or more Windows Phone Apps on App Hub. If they get certified and published at the Windows Phone Marketplace by 31st March, 2012, you are entitled to receive a Windows Phone device to test your future apps.</li>
+				</ul>	 						
+			 </li>
+			
+            
+            <li>Can I participate in this program?
+				<ul>
+					<li class="bg-none">If you are a technology professional – Software Developer, Project Manager or Software Architect – or a technology enthusiast working and residing in India, you are eligible to participate in this program. The full eligibility criteria are available <a href="http://www.microsoft.com/india/developer/windowsphone/#youget" class="goto_youget t3 close display3" style="background-image:none !important" onclick="closeFancyBox(); showWhite();">here</a>.</li>
+				</ul>	 						
+			 </li>
+             
+             
+             <li>How will I benefit from participating in this program?
+				<ul>
+					<li class="bg-none">There are multiple benefits on offer for you:<br>
+<br>
+
+•	If you submit three (3) Windows Phone Apps that get listed at the Marketplace within the program period, then you qualify to receive a<br>&nbsp; Windows Phone test device (model and manufacturer to be decided by Microsoft).<br><br>
+•	If you submit two    (2) new Windows Phone Apps – that you have ported from existing Android and/or iPhone apps – which get listed at the<br>&nbsp;  Marketplace within the program period, then you qualify to receive a Windows Phone test device (model and manufacturer to be decided by<br>&nbsp; Microsoft).<br><br>
+•	If you are a woman developer, and submit one (1) new Windows Phone app – based on entertainment, fashion, leisure, gaming, recreation or<br>&nbsp;   travel themes – which gets listed at the Marketplace within the program period, then you qualify to receive a Windows Phone test device (model and<br>&nbsp; manufacturer to be decided by Microsoft).<br><br>
+For details, please <a href="http://www.microsoft.com/india/developer/windowsphone/#youget" class="goto_youget t3 close display3" style="background-image:none !important" onclick="closeFancyBox(); showWhite();">click here</a>.
+
+
+</li>
+				</ul>	 						
+			 </li>
+            			
+            
+            <li>How do I go about developing a Windows Phone app? What tools can be used?
+				<ul>
+					<li class="bg-none">
+        Please browse through the resources section of this website for detailed step-by-step tutorials on developing Windows Phone Apps. You may also refer to the following resources: <br><br>           
+&nbsp; •	<a href="http://create.msdn.com/" target="_blank">http://create.msdn.com</a><br>
+&nbsp; •	<a href="http://create.msdn.com/en-us/home/getting_started" target="_blank">http://create.msdn.com/en-us/home/getting_started</a><br>
+&nbsp; •	<a href="http://msdn.microsoft.com/en-us/WP7TrainingCourse_YourFirstWP7AppLab" target="_blank">http://msdn.microsoft.com/en-us/WP7TrainingCourse_YourFirstWP7AppLab</a><br>
+&nbsp; •	<a href="http://msdn.microsoft.com/en-us/WP7TrainingCourse_HelloPhoneWP7Lab" target="_blank">http://msdn.microsoft.com/en-us/WP7TrainingCourse_HelloPhoneWP7Lab</a><br>
+
+                    
+                    </li>
+				</ul>	 						
+			 </li>   
+             
+              <li>What do I need to do to submit my app at the Windows Phone Marketplace? 
+				<ul>
+					<li class="bg-none">You must be registered as an App Hub member in order to submit an app for Windows Phone. App Hub membership fee is USD 99 per year. Paid membership enables you to publish and manage applications at Windows Phone Marketplace, and to post to the App Hub forums to get support from the developer community.<br><br>
+You must have a Windows Live ID to register. If you don’t have one, go to <a href="http://go.microsoft.com/fwlink/?linkid=145498" target="_blank">Windows Live</a> and create one.<br><br>
+<a href="http://msdn.microsoft.com/en-us/library/hh202922(VS.92).aspx" target="_blank">More questions about Windows Phone app and game submissions</a>
+</li>
+				</ul>	 						
+			 </li>   
+             
+             
+             <li>What is App Hub?
+				<ul>
+					<li class="bg-none">App Hub is a vibrant community of apps and game developers for Windows Phone and Xbox LIVE Indie Games on Xbox 360. As part of App Hub membership, you get a developer dashboard so you can manage all aspects of how your app or game appears in Marketplace, monitor downloads, and track how much money you’ve earned if you charge for your work.</li>
+				</ul>	 						
+			 </li>
+            			
+            
+            <li>What is the Windows Phone Marketplace?
+				<ul>
+					<li class="bg-none">Once you’ve developed your app or game, Windows Phone Marketplace is where you can sell or give away your creation for free to the global audience of Windows Phone owners.</li>
+				</ul>	 						
+			 </li>   
+             
+              <li>What happens after I submit my app on App Hub? How long does the certification process take? 
+				<ul>
+					<li class="bg-none">After an app is submitted on App Hub, it will be tested to verify whether it adheres to the certification guidelines. If it passes certification testing, then it will be published on the Windows Phone Marketplace. The duration of the certification process is variable, but it usually takes around one to four weeks.
+</li>
+				</ul>	 						
+			 </li>   
+             
+             
+             <li>Do I need to get my app certified before it’s published at the Windows Phone Marketplace?
+				<ul>
+					<li class="bg-none">All applications must pass certification testing before being published to Windows Phone Marketplace. You can find the application policies and technical certification requirements in <a href="http://go.microsoft.com/fwlink/?LinkID=183220" target="_blank">Windows Phone 7 application certification requirements</a>. There’s no cost for app/game certification or application updates.<br>
+<br>
+<a href="http://msdn.microsoft.com/en-us/library/hh202928(VS.92).aspx" target="_blank">More questions about Windows Phone app and game certification</a>
+</li>
+				</ul>	 						
+			 </li>
+            			
+            
+            <li>Will I get multiple test devices for multiple apps published on Marketplace during the program period?<ul>
+					<li class="bg-none">A participant will be eligible to get only one (1) test device as part of this program, regardless of whether he/she qualifies in more than one category.<br>
+ Also note that these Windows Phone applications must be distinct and should have non-trivial utility value for the application user. In case the submitted applications are found to be “Spam” or close replicas of existing applications, these will not qualify for the program.</li>
+				</ul>	 						
+			 </li>   
+             
+              <li>How will I know if my app qualifies?
+				<ul>
+					<li class="bg-none">Results will be announced in this website on a monthly basis.</li>
+				</ul>	 						
+			 </li>   
+             
+            
+		</ul>
+	 
+	</div>
+                    
+      
+                    </div>
+                </div>
+                <div class="popup-b"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/bg-popup-b.png" width="892" height="7" alt=""></div>
+            </div>
+          
+         </div>
+         </div>
+        <!--/Claim Goodies popup-->
+        
+        
+        
+        
+        <div class="share-t">
+          <div class="ms-logo-c"><a href="http://www.microsoft.com/india/student/windowsphone/" target="_blank"><br>
+          <img src="./Windows Phone in India   i unlock joy - developers campaign_files/aus.jpg" width="116" height="15" alt="Are you a student?"></a></div>
+        </div>
+      </div>
+      <!--/top menu-->
+    </div>
+    <!--/header top-->
+        <div class="header-nav"> 
+            <ul id="nav-show">
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#home" class="goto_home t1" onclick="showWhiteHide();">&nbsp;</a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#how" class="goto_how t2" onclick="showWhite();">&nbsp;</a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#youget" class="goto_youget t3" onclick="showWhite();">&nbsp;</a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#rules" class="goto_rules t4" onclick="showWhite();">&nbsp;</a></li>
+			<li style="margin-right:0;"><a href="http://www.microsoft.com/india/developer/windowsphone/#users" class="goto_users t5" onclick="showWhite();">&nbsp;</a></li>
+            </ul>
+        </div>
+    <!--header part-->
+    <div class="header-part">
+    
+
+    
+    	<div class="i-joy" id="removebg"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/ijoy.png" width="301" height="102" alt=""></div>
+
+<div class="reusable-main-all">
+<div id="bg-p" style="display:none;"></div>
+
+<div id="content2">
+<div id="contentScroller">     
+       <!--home-->     
+ <div id="home" class="page">
+   	<div class="header-part-main">
+        	<div class="header-part-main-c"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/developer.png" alt="" width="251" height="69" vspace="10"><br>
+Windows Phone presents your apps to people in a smarter and 
+easier way. The much talked about new Metro UI design inspires 
+you to create breathtaking apps and makes them easier to discover 
+and use. <span style="color:#e51400;">‘I Unlock Joy’</span> program is your chance to become 
+users’ favorite and get a brand new Windows Phone. 
+Get started now- explore the tiles on the right.
+</div>
+       
+        
+       <div class="header-part-main-nav">
+       	<ul>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#how" class="goto_how display" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperHow_6&#39;); removebg();"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/how.jpg" width="146" height="146" alt=""></a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#youget" class="goto_youget display2" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperYouGet_6&#39;); removebg();" style="clear:both;"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/you-get.jpg" width="146" height="146" alt=""></a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#rules" class="goto_rules display3" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperRules_6&#39;); removebg();"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/rules.jpg" width="146" height="146" alt=""></a></li>
+            <li><a href="http://www.microsoft.com/india/developer/windowsphone/#users" class="goto_users display4" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperWomenSpecia_5&#39;); removebg();"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/women-champ.png" width="146" height="146" alt=""></a></li>
+        </ul>
+       </div> 
+     </div>
+ </div>
+ <!--/home-->    
+ 
+    
+ <!--how-->
+  <div id="how" class="page">  
+  <div class="main-all">
+        
+       <div class="reusable-h"> 
+        <h2 style="padding-bottom:25px;"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/how.png" width="150" height="71" alt=""></h2>
+     
+	<div>
+     
+     
+     <!--sub slider-->
+   
+   
+   <div id="slider4">
+  <ul class="pager">
+   
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h1 active" rel="0">&nbsp;</a></li>
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h2" rel="1">&nbsp;</a></li>
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h3" rel="2">&nbsp;</a></li>
+  </ul>
+  <div class="viewport">
+    <ul class="overview" style="width: 3480px; left: 0px; ">
+    
+    <!--1-->
+      <li class="page">      
+<div class="how-box-content how2">
+    <ol>
+    <li><a href="https://users.create.msdn.com/Register" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperHowRegister_2&#39;);" target="_blank">Register</a> on App Hub</li>
+    <li><a href="http://create.msdn.com/en-us/home/getting_started" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSDK_9&#39;);">Download</a> Windows Phone SDK </li>
+    <li>Build 3 Windows Phone Apps</li>
+    <li>Get the 3 apps <a href="http://create.msdn.com/en-US/home/about/developer_registration_walkthrough" target="_blank">certified</a></li>
+    <li><a href="http://create.msdn.com/en-US/home/about/app_submission_walkthrough" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSubmitApp_10&#39;);">Submit</a> them on the Marketplace by 31st March, 2012</li>
+    </ol>
+<div class="how-box-content-policy">Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.</div>
+</div>
+ </li>
+ <!--/1-->
+ 
+ <!--2-->
+      <li class="page">
+      
+       
+<div class="how-box-content how3">
+    <ol>
+    <li><a href="https://users.create.msdn.com/Register" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperHowRegister_2&#39;);" target="_blank">Register</a> on App Hub</li>
+    <li><a href="http://create.msdn.com/en-us/home/getting_started" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSDK_9&#39;);">Download</a> Windows Phone SDK </li>
+    <li>Build 1 Windows Phone App on <a href="http://www.microsoft.com/india/developer/windowsphone/#users" class="goto_users display4">select themes</a></li>
+    <li>Get the  app <a href="http://www.microsoft.com/windowsphone/en-us/apps/default.aspx" target="_blank">certified</a></li>
+    <li><a href="http://create.msdn.com/en-US/home/about/app_submission_walkthrough" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSubmitApp_10&#39;);">Submit</a> it on the Marketplace by 31st March, 2012<br><em style="font-size:10px;">(Only for first 100 female participants)</em></li>
+    </ol>
+    <div class="how-box-content-policy">    
+    Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.	
+    </div>
+	</div>     
+      
+      </li>
+ <!--2-->  
+ 
+ <!--3-->  
+      <li class="page">
+      
+      <div class="how-box-content">
+    <ol>
+    
+    <li><a href="https://users.create.msdn.com/Register" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperHowRegister_2&#39;)" target="_blank">Register</a>  on App Hub</li>
+<li>Use "Android-To-WP API Mapping Tool" for Android apps</li>
+<li>Use "iOS-To-WP API Mapping Tool" for iOS apps</li>
+<li>Port two of your Android/iOS apps to Windows Phone</li>
+<li>Get your apps <a href="http://create.msdn.com/en-US/home/about/developer_registration_walkthrough" target="_blank">certified</a></li>
+<li><a href="http://create.msdn.com/en-US/home/about/app_submission_walkthrough" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSubmitApp_10&#39;);">Submit</a> your apps on the Marketplace by 31st March, 2012</li>
+
+ </ol>
+    
+   
+    <div class="how-box-content-policy">    
+    Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.	
+    </div>
+	</div>
+      
+      </li>
+<!--/3-->
+    </ul>
+  </div>
+</div>
+ 
+     <!--/sub slider-->
+     
+     
+     
+</div> 
+
+ 
+ </div>	
+        
+        </div>		 	
+ </div> 
+ <!--/how-->
+ 
+ 		
+<!-- you get-->
+<div id="youget" class="page">
+  <div class="main-all">
+        
+        <div class="reusable-h2">
+        <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/you-get.png" width="272" height="83" alt=""></h2>
+        
+         <!--sub slider-->
+   
+    <div id="slider5">
+  <ul class="pager">
+   
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h1 active" rel="0">&nbsp;</a></li>
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h2" rel="1">&nbsp;</a></li>
+    <li><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="pagenum h3" rel="2">&nbsp;</a></li>
+  </ul>
+  
+  <div class="viewport">
+    <ul class="overview" style="width: 3480px; left: 0px; ">
+    
+    <!--1-->
+      <li class="page">      
+       <div class="how-box-content phone-half">
+                
+                <div class="you-get-main"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/phone2.jpg" alt=""></div>
+                
+                <div class="you-get-main-part">
+                	<div class="you-get-main-m">
+                    <h4>For 3 certified apps</h4>
+                    <p><strong>A brand new Windows Phone</strong> each to all developers<br>submitting 3 certified applications.</p>
+                    </div>
+                     <div class="how-box-content-policy">   <br><br> 
+                Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.	
+                </div>
+                </div>
+                
+            </div>
+ 
+      </li>
+    <!--/1-->  
+    
+    <!--2-->
+      <li class="page">      
+       <div class="how-box-content phone-half">
+                
+                <div class="you-get-main"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/phone2.jpg" alt=""></div>
+                
+                <div class="you-get-main-part">
+                	<div class="you-get-main-m">
+                    <h4>For 1 certified app</h4>
+                    <p><strong>A brand new Windows Phone</strong> each to<br><span class="red-on ">first 100 women developers</span><br> submitting 1 certified application.</p>
+                    </div>
+                     <div class="how-box-content-policy">  <br> 
+                Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.	
+                </div>
+                </div>
+                
+            </div>
+      </li>
+    <!--/2--> 
+    
+    
+    <!--3-->
+      <li class="page">      
+       <div class="how-box-content">
+                
+                <div class="you-get-main"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/phone2.jpg" alt=""></div>
+                
+                <div class="you-get-main-part">
+                	<div class="you-get-main-m">
+                    <h4>For 2 certified ported apps</h4>
+                    <p><strong>A brand new Windows Phone</strong> each to developers<br> submitting 2(certified) ported applications.</p>
+                    </div>
+                     <div class="how-box-content-policy">  <br> 
+                Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">terms and conditions</a>.	
+                </div>
+                </div>
+                
+            </div>
+      </li>
+    <!--/3-->  
+      
+      </ul>
+      </div>
+  
+  
+  
+  
+  
+  </div>
+   
+  
+  
+     <!--/sub slider-->
+        
+         
+        
+        </div>
+        </div>		 	
+   </div> 
+<!--! you get-->
+			
+<!-- rules-->
+<div id="rules" class="page">
+    <div class="main-all">
+        
+        <div class="reusable-h">
+      
+        <h2 style="padding-bottom:25px;"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/rules.png" width="155" height="71" alt=""></h2>
+   
+   <div class="anythingSlider anythingSlider-default activeSlider" style="width: 560px; height: 235px; "><div class="anythingWindow"><ul id="slider2" class="anythingBase" style="width: 1680px; left: 0px; ">
+<!--1-->
+ <li class="panel activePage" style="width: 560px; height: 235px; ">   
+ <div class="reusable-h-c rules1" style="width: 100%; height: 100%; ">       
+ <div class="p2">You are eligible to participate if:</div>
+
+<ul>  
+<li>You are a Technology Professional – Software Developer, Project Manager or Software Architect – working and residing in India;</li>
+<li>You are not an employee, intern, agent or a relative of an employee of Microsoft Corporation (India) or Microsoft Corporation, or any of their affiliates;</li> 
+<li>You are not involved in any part of the execution or administration of this Program; and</li>
+ 
+
+</ul>     
+   </div>
+ </li>
+ <!--/1-->  
+   
+<!--2-->
+ <li class="panel" style="width: 560px; height: 235px; ">   
+ <div class="reusable-h-c rules2" style="width: 100%; height: 100%; ">       
+ <div class="p2">You can participate in the program by:</div>
+
+<ul>  
+<li>Submitting three (3) new Windows Phone Apps that get published at the Windows Phone Marketplace by 31st March, 2012;</li>
+<li>Submitting two (2) new Windows Phone Apps that you have ported from existing Android and/or iPhone apps, which get published at the Marketplace by 31st March, 2012; and</li>
+<li>If you are a woman developer, submitting one (1) new Windows Phone App based on Entertainment, Fashion, Leisure, Gaming, Recreation or Travel Themes, which gets published at the Marketplace by 31st March, 2012.</li>
+</ul>     
+ </div>
+ </li>
+ <!--/2-->    
+ 
+ <!--3-->
+ <li class="panel" style="width: 560px; height: 235px; ">   
+ <div class="reusable-h-c" style="width: 100%; height: 100%; ">       
+ <div class="p2">Your App Submission is valid if </div>
+
+<ul>  
+<li>You have filled up the Registration Form posted in this website with all the required information;</li>
+<li>You have <a href="https://users.create.msdn.com/Register">Registered</a> in the App Hub with a $99 Annual Membership Fee, which entitles you to Publish and Manage apps at Windows Phone Marketplace; and</li> 
+<li> Your app gets <a href="http://create.msdn.com/en-US/home/about/developer_registration_walkthrough">Certified</a> on App Hub and Published at Windows Phone Marketplace on or before 31st March, 2012.</li>
+
+<li style="background-image:none;"><br><br> Please read detailed <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf">terms and conditions</a>.</li>
+
+</ul>     
+   </div>
+ </li>
+ <!--/3--> 
+  
+   
+ </ul></div><div class="anythingControls" style="display: block; "><ul class="thumbNav"><li class="first"><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="panel1 cur"><span>1</span></a></li><li class=""><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="panel2"><span>2</span></a></li><li class="last"><a href="http://www.microsoft.com/india/developer/windowsphone/#" class="panel3"><span>3</span></a></li></ul></div><span class="arrow back disabled"><a href="http://www.microsoft.com/india/developer/windowsphone/#"><span>«</span></a></span><span class="arrow forward"><a href="http://www.microsoft.com/india/developer/windowsphone/#"><span>»</span></a></span></div>  
+   
+  </div>
+ </div>		 	
+</div> 
+<!-- /rules-->	
+
+		
+<!-- women champ-->
+<div id="users" class="page">		
+        <div class="main-all">
+     
+        <div class="reusable-h">
+        <h2><img src="./Windows Phone in India   i unlock joy - developers campaign_files/wc.jpg" alt=""></h2>
+      
+      <div class="women-champ"> 
+      	<div class="women-champ-l"><h3>If you are a woman developer,</h3>
+        <p>you have a chance to get a Windows Phone by developing just 1 app focused on one of the following themes <br><span style="font-size:11px;"> 1. Entertainment &nbsp;2. Fashion &nbsp; 3. Leisure &nbsp;<br> 4. Game &nbsp; 5. Recreation &nbsp;   6. Travel</span> 
+</p>
+  <div class="how-box-content" style="width:277px;">   
+         <ol>
+    <li style="width:250px;"><a href="https://users.create.msdn.com/Register" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperHowRegister_2&#39;)" target="_blank">Register</a> on App Hub</li>
+    <li style="width:250px;"><a href="http://create.msdn.com/en-us/home/getting_started" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSDK_9&#39;);">Download</a> Windows Phone SDK </li>
+    <li style="width:250px;">Build 1 Windows Phone App</li>
+    <li style="width:250px;">Get the  app <a href="http://create.msdn.com/en-US/home/about/developer_registration_walkthrough" target="_blank">certified</a></li>
+    <li style="width:250px;"><a href="http://create.msdn.com/en-US/home/about/app_submission_walkthrough" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSubmitApp_10&#39;);">Submit</a> it on the Marketplace by<br>31st March, 2012</li>
+    </ol>
+     </div>
+        
+        </div>
+        	<div class="women-champ-r"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/wc-img.jpg" width="301" height="209" alt=""></div>
+        
+      </div> 
+        </div>
+        </div>		 				
+</div> 
+<!-- /women champ-->		
+
+</div>
+</div>
+        
+     </div>
+    </div>
+    </div>
+    <!--/header part-->
+    
+   
+    
+    <!--middle part-->
+    <div class="middle-part">
+      <ul>
+        <li><a href="http://create.msdn.com/en-us/home/getting_started" target="_blank" onclick="atlas(&#39;http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperSDK_9&#39;);"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/i-tab1.jpg" width="149" height="148" alt=""><br>
+          <strong>Tools</strong><br>
+          Download the complete set of developer tools you need to build Windows Phone applications.</a>
+        </li>
+        
+          <li><a href="http://www.microsoft.com/india/developer/windowsphone/#inline1" class="tab1 various1"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/i-tab3.jpg" width="149" height="148" alt=""><br>
+          <strong>Before you begin</strong><br>
+          Tools and technology you need for Windows Phone App development. </a>
+        </li>
+        
+           <li><a href="http://www.microsoft.com/india/developer/windowsphone/#inline2" class="tab1 various2" target="_blank"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/i-tab5.jpg" width="149" height="148" alt=""><br>
+          <strong>Get your apps certified</strong><br>
+          Become a member of the Windows Phone Marketplace with an annual membership fee of just $99 and get access to the App Hub and certification processes.</a> </li>
+        
+          <li><a href="http://forums.create.msdn.com/forums/" target="_blank"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/apps-n.png" width="149" height="148" alt=""><br>
+            <strong>Unlimited apps</strong><br>
+            Submit unlimited number of certified paid applications and up to 100 free applications as registered App Hub member.</a>  </li>
+            
+        <!--<li><a  href="#"><img src="images/cs.png" width="149" height="148" alt="" /><br />
+          <strong>App showcase</strong>
+          Submit a certified app and get a chance to pick up a brand new Windows Phone. </a>
+        </li>-->
+
+        <li><a href="http://www.microsoft.com/india/developer/windowsphone/#inline5" class="tab1 various5"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/aj.png" width="149" height="148" alt=""><br>
+          <strong>Specials</strong>
+          The people who gave wings to the ‘I unlock joy’ campaign in Pune!  </a>
+        </li>
+        
+      
+        
+      
+     
+          
+        <li style="padding-right:0;"><a href="http://www.microsoft.com/india/developer/windowsphone/#inline3" class="various3"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/i-tab6.jpg" width="149" height="148" alt=""><br>
+           <strong>FAQs</strong><br>Answers to most of the questions that may arise as you begin your journey here.</a>
+        </li>
+      </ul>
+    </div>
+    <!--/middle part-->
+    <!--footer part-->
+    <div class="footer-part">
+    <div class="footer-mains">
+      <div class="footer-copyright"><strong>Support:</strong> <a href="mailto:wppitcrew@microsoft.com">wppitcrew@microsoft.com</a><br>
+©<span id="year">2012</span> Microsoft Corporation. All rights reserved. </div>
+      <div class="footer-links"><a href="http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx" target="_blank" style="padding-left:0;">Terms of Use</a> | <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-in.mspx" target="_blank">Trademarks </a>  |   <a href="http://www.microsoft.com/info/ind-en/privacy.mspx" target="_blank">Privacy Statements</a>  |   <a href="http://windowsteamblog.com/windows_phone/b/windowsphone/" target="_blank">Windows Phone Blog</a> |  <a href="http://download.microsoft.com/download/7/C/1/7C1CDEE5-2C7F-4760-A872-B36E78253FF0/FY12_Developer_apps_Program.pdf" target="_blank">Terms &amp; Conditions </a></div>
+      <div class="sm"> Follow us on <a href="https://www.facebook.com/windowsphone?sk=wall" target="_blank"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/sm1.jpg" alt="" width="14" height="14" align="top"></a> <a href="http://twitter.com/#!/windowsphone" target="_blank"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/sm2.jpg" alt="" width="14" height="14" align="top"></a> <a href="http://www.youtube.com/user/windowsphone?ob=5" target="_blank"><img src="./Windows Phone in India   i unlock joy - developers campaign_files/sm3.jpg" alt="" width="14" height="14" align="top"></a></div>
+    </div>
+    	
+        <div class="footer-sd">&nbsp;</div>
+    
+    </div>
+    <!--/footer part-->
+  </div>
+  <!--End master container here-->
+
+<!--End main container for center website-->
+
+
+
+<script>    document.write('<s' + 'cript language="JavaScript" src="http://view.atdmt.com/jaction/inminp_FY12WindowsphoneIUJDeveloperLP_4"></s' + 'cript>')</script><script language="JavaScript" src="./Windows Phone in India   i unlock joy - developers campaign_files/inminp_FY12WindowsphoneIUJDeveloperLP_4"></script><noscript>&lt;iframe src="http://view.atdmt.com/iaction/inminp_FY12WindowsphoneIUJDeveloperLP_4" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"&gt;&lt;/iframe&gt;</noscript>
+
+<script type="text/javascript">
+    var date = new Date();
+    var year = date.getFullYear();
+    document.getElementById('year').innerHTML = year;
+    </script>
+
+<script type="text/javascript">
+    var varSegmentation = 0;
+    var varClickTracking = 1;
+    var varCustomerTracking = 1;
+    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
+</script><script type="text/javascript" src="./Windows Phone in India   i unlock joy - developers campaign_files/ms.js" '=""></script><iframe id="_msnFrame" src="./Windows Phone in India   i unlock joy - developers campaign_files/c.gif" style="z-index:-1;height:1px;width:1px;display:none;visibility:hidden;" onload="javascript:MscomBeacon();"></iframe>
+<noscript>&lt;img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx"/&gt;</noscript>
+
+<script type="text/javascript">
+    var gDomain = "m.webtrends.com";
+    var gDcsId = "dcsjwb9vb00000c932fd0rjc7_5p3t";
+    var gTrackEvents = 1;
+    var gFpc = "WT_FPC";
+    if (document.cookie.indexOf(gFpc + "=") == -1) {
+        document.write("<SCR" + "IPT TYPE='text/javascript' SRC='" + "http" + (window.location.protocol.indexOf
+('https:') == 0 ? 's' : '') + "://" +
+
+gDomain + "/" + gDcsId + "/wtid.js" + "'><\/SCR" + "IPT>");
+    }
+    </script>
+    <script src="./Windows Phone in India   i unlock joy - developers campaign_files/wt.js" type="text/javascript">
+    </script>
+    <noscript>
+        &lt;img border="0" name="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcsjwb9vb00000c932fd0rjc7_5p3t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" /&gt;
+    </noscript>
+
+
+
+ 
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close" href="javascript:closevid();"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
